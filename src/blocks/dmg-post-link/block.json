@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "dmg-tt/dmg-post-link",
+    "title": "DMG Post Link",
+    "category": "common",
+    "icon": "admin-links",
+    "description": "DMG Media block to link a post",
+    "attributes": {
+        "postId": {
+            "type": "number"
+        },
+        "postTitle": {
+            "type": "string"
+        },
+        "postPermalink": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "textdomain": "dmg-post-link",
+    "editorScript": "dmg-blocks",
+    "editorStyle": "dmg-tt-admin-style",
+    "style": "dmg-tt-global-style"
+}

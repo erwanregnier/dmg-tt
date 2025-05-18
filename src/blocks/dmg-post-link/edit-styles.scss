@@ -1,0 +1,55 @@
+.post-list {
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.post-list-item {
+  margin-bottom: 6px;
+}
+
+.post-button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--wp-admin-theme-color, #007cba);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 3px;
+  transition: background-color 0.15s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: var(--wp-admin-theme-color-tint, #f0f8ff);
+    outline: none;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+
+  span {
+    margin: 0 8px;
+  }
+
+  button {
+    margin: 0 6px;
+  }
+}
+
+#dmg-post-search-help {
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.search-container {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}

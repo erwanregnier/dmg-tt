@@ -1,0 +1,1 @@
+import './blocks/dmg-post-link/index.js';

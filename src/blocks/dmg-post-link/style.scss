@@ -1,0 +1,22 @@
+.dmg-read-more {
+    cursor: pointer;
+    color: #0073aa;
+    transition: color 0.3s ease;
+
+    a {
+        text-decoration: underline;
+        &:hover {
+            color: #6a198a;
+            text-decoration: none;
+        }
+        // Accessibility contrast + visual border
+        &:active {
+            color: #6a198a;
+        }
+
+        &:focus {
+            outline: 2px solid #6a198a;
+            outline-offset: 2px;
+        }
+    }
+}
