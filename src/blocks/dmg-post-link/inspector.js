@@ -6,7 +6,7 @@ import { useSelect } from "@wordpress/data";
 import { store as coreDataStore } from "@wordpress/core-data";
 import PostsList from '../../components/post-list';
 
-// Formulaire de recherche avec input + bouton + gestion entrée
+// Search component with form
 const SearchForm = ({ inputValue, setInputValue, onSearch }) => {
   const onInputKeyDown = (event) => {
     if (event.key === "Enter") {
@@ -47,7 +47,7 @@ const SearchForm = ({ inputValue, setInputValue, onSearch }) => {
   );
 };
 
-// Composant principal dans InspectorControls
+// Main component
 export const BlockInspector = ({ attributes, setAttributes }) => {
   const { postId } = attributes;
 
