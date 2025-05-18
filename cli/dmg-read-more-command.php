@@ -32,7 +32,7 @@ class DMG_Read_More_Command
         }
 
         $query_args = [
-            'post_type' => 'page',
+            'post_type' => 'post',
             'post_status' => 'publish',
             'date_query' => [
                 [
