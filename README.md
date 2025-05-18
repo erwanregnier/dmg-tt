@@ -23,6 +23,7 @@ To improve performance it is recommanded to add the global --skip-themes paramet
 
 - To avoid multiple calls and limit the ressources usage, the search is manually triggered by pressing Enter or the Search button instead of an autocomplete mode
 - The plugin has been build as a potential container of multiple blocks and WP CLI commands
+- I have included the build folder so the plugin is ready to use without running the npm commands
 
 ## Test with Jest
 
