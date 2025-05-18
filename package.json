@@ -1,0 +1,20 @@
+{
+  "name": "dmg-tt",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@wordpress/jest-preset-default": "^12.14.0",
+    "@wordpress/scripts": "^30.7.0",
+    "jest": "^29.7.0",
+    "sass": "^1.89.0"
+  },
+  "jest": {
+    "preset": "@wordpress/jest-preset-default"
+  }
+}
